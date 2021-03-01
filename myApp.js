@@ -1,5 +1,7 @@
 require('dotenv').config();
+import mongoose from 'monngoose';
 
+mongoose.connect('mongodb+srv://kisobe:<Kaladinstormblessed1!>@cluster0.rxfgr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
 
 let Person;
 
